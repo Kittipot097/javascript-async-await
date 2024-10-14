@@ -13,3 +13,4 @@ let getJohnProfile = () => {
 };
 
 // Start coding here
+const getData = getJohnProfile().catch((data) => console.log(data))
